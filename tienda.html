@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tecno Print 3D - Tienda</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #0d6efd;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #0b5ed7;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+      gap: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-image: url('https://www.todotrenque.com.ar/imagenes/web/rame-impresiones-3d.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 5px #000;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    .productos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .producto {
+      width: 200px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+      text-align: center;
+      padding: 1rem;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .producto:hover {
+      transform: scale(1.03);
+    }
+
+    .producto img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    .producto h3 {
+      margin: 0.5rem 0;
+    }
+
+    .producto p {
+      color: #555;
+      font-size: 0.9rem;
+    }
+
+    .producto button {
+      background-color: #0d6efd;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 0.5rem;
+    }
+
+    footer {
+      background-color: #f1f1f1;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      .producto {
+        width: 100%;
+        max-width: 300px;
+      }
+
+      .hero h2 {
+        font-size: 1.5rem;
+        padding: 0 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tecno Print 3D</h1>
+    <p>Soluciones creativas en impresión 3D</p>
+  </header>
+
+  <nav>
+    <a href="web-movil-y-web-pc.html">Inicio</a>
+    <a href="#">Productos</a>
+    <a href="tienda.html">Tienda</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Impresiones 3D a tu medida</h2>
+  </section>
+
+  <section class="productos">
+    <div class="producto">
+      <img src="https://tecnopatafisica.com/images/articulos/impresora3D/impresora3D.jpg" alt="Figura personalizada">
+      <h3>Figura personalizada</h3>
+      <p>Diseños únicos y a tu gusto.</p>
+      <button>Ver más</button>
+    </div>
+    <div class="producto">
+      <img src="https://fbi.cults3d.com/uploads/blog/image/image/2684/cults3D-1.jpg" alt="Prototipo industrial">
+      <h3>Prototipo</h3>
+      <p>Ideal para validar tus ideas.</p>
+      <button>Ver más</button>
+    </div>
+    <div class="producto">
+      <img src="https://teyder.com/wp-content/uploads/2022/04/ortesis-3d.jpg" alt="Pieza funcional">
+      <h3>Pieza funcional</h3>
+      <p>Soluciones útiles en el hogar o industria.</p>
+      <button>Ver más</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tecno Print 3D</p>
+  </footer>
+
+</body>
+</html>
+
